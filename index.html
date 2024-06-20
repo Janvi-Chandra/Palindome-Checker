@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="./styles.css" rel="stylesheet">
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>Welcome to PalindromePal!</h1>
+            <h3>World's Simplest Text Tool</h3>
+            <p>Are you curious about palindromes? You're in the right place! PalindromePal is your go-to destination for all things related to palindromes. Whether you're a palindrome enthusiast or just starting to explore the fascinating world of palindromes, we've got something for everyone.</p>
+             <div class="check-box">
+                <input type="text" class="text-box" placeholder="Enter the word" id="text-input" required>
+                <input type="button" value="Check" id="check-btn">
+            </div>
+            <div id="result-box">
+                <p id="result"></p>
+            </div>
+            <div class="info-box">
+                <span><i class='bx bx-bulb'></i></span>
+                <p class="info">A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+            </div>
+        </div>
+
+        <div class="right-side">
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+        <dotlottie-player src="https://lottie.host/bb89eb6c-3dbd-4d7c-a4ff-7135ec273777/6AkhWL29li.json" background="transparent" speed="1" style="width: 440px; height: 440px;" loop autoplay></dotlottie-player>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
