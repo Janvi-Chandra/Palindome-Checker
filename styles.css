@@ -180,6 +180,64 @@ input[type="button"]:hover {
 
     .info-box
     {
-        align-items:first baseline;
+        align-items:baseline;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        text-align: center;
+        margin:0.5rem;
+        flex-wrap: wrap;
+        max-width: 330px;
+    }
+
+    .info-box {
+        text-align: left;
+        width: 100%;
+        max-width: 320px;
+        padding:0.5rem;
+    }
+
+    input {
+        width: 100%;
+        max-width: 375px;
+        margin:0.5rem;
+    }
+
+    input[type="text"]
+    {
+        width:90%;
+    }
+
+    input[type="button"]
+    {
+        width:95%;
+    }
+
+    .info-box p
+    {
+        padding-left: 0.1rem;
+        padding-right: 0.2rem;
+    }
+
+    .check-box
+    {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .info-box
+    {
+        align-items:baseline;
+    }
+}
+
